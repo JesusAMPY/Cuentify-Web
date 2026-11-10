@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuentify · Tus cuentas claras, quincena a quincena</title>
+<meta name="description" content="Anota tus gastos en segundos y sabe cuánto tener en cada cuenta cada quincena. Sin registro y sin publicidad: tus datos se quedan en tu celular.">
+<meta property="og:title" content="Cuentify">
+<meta property="og:description" content="Tus cuentas claras, quincena a quincena. Sin registro: tus datos se quedan en tu celular.">
+<meta property="og:image" content="https://jesusampy.github.io/Cuentify-Web/img/compartir.png">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0D2B30">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--noche:#0D2B30;--ink:#fff;--mu:#BFE6DC;--sol:#FDE047}
+*{box-sizing:border-box}
+body{margin:0;font-family:Outfit,system-ui,sans-serif;color:var(--ink);background:radial-gradient(900px 700px at 10% 0%,rgba(34,197,94,.35),transparent 62%),radial-gradient(900px 800px at 100% 100%,rgba(14,116,144,.5),transparent 60%),var(--noche);min-height:100vh}
+main{max-width:1040px;margin:0 auto;padding:32px 16px 48px}
+.top{display:flex;align-items:center;gap:12px;font-size:28px;font-weight:700}.top svg{width:52px;height:52px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;margin-top:48px}
+h1{font-size:clamp(40px,6vw,64px);line-height:1.04;margin:0;letter-spacing:-.02em}h1 em{font-style:normal;color:var(--sol)}
+.sub{font-size:20px;color:var(--mu);line-height:1.5;margin:20px 0 0}
+.pronto{display:inline-block;margin-top:28px;background:var(--sol);color:var(--noche);font-weight:700;padding:14px 22px;border-radius:999px}
+.tel{width:100%;max-width:320px;justify-self:center;border-radius:36px;box-shadow:0 40px 80px -30px rgba(0,0,0,.8)}
+.fx{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:64px}
+.fx div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:18px}.fx b{display:block;font-size:18px;margin:8px 0 4px}.fx p{margin:0;color:var(--mu);line-height:1.45}.fx i{font-style:normal;font-size:28px}
+footer{margin-top:64px;padding-top:24px;border-top:1px solid rgba(255,255,255,.15);display:flex;flex-wrap:wrap;gap:16px 28px;justify-content:space-between;color:var(--mu)}
+footer a{color:var(--ink);text-decoration:none;font-weight:600}footer nav{display:flex;flex-wrap:wrap;gap:16px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;margin-top:32px}.tel{max-width:260px}}
+</style>
+</head>
+<body><main>
+<div class="top"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22C55E"/><stop offset="1" stop-color="#0E7490"/></linearGradient><linearGradient id="c" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#D9F99D"/><stop offset="1" stop-color="#FDE047"/></linearGradient></defs><rect width="100" height="100" rx="24" fill="url(#b)"/><path d="M70 30.5A27 27 0 1 0 70 69.5" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/><path d="M40 51l10 10 27-29" fill="none" stroke="url(#c)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M83 13l2.2 6.3 6.3 2.2-6.3 2.2L83 30l-2.2-6.3-6.3-2.2 6.3-2.2z" fill="#fff"/></svg>Cuentify</div>
+<section class="hero">
+ <div>
+  <h1>Tus cuentas claras, <em>quincena a quincena</em></h1>
+  <p class="sub">Anota un gasto en segundos, deja que los avisos de tu banco se anoten solos y sabe cuánto debe haber en cada cuenta el día que te pagan. Sin registro y sin publicidad: tus datos se quedan en tu celular.</p>
+  <span class="pronto">Muy pronto en Google Play</span>
+ </div>
+ <img class="tel" src="img/captura.jpg" alt="Cuentify en un celular: anotar un gasto escribiendo «25 mil almuerzo»">
+</section>
+<section class="fx">
+ <div><i>✍️</i><b>Anota como hablas</b><p>«25 mil almuerzo», «12 mil uber con nequi», «zapatos 300 mil a 3 cuotas».</p></div>
+ <div><i>📲</i><b>Tus bancos avisan, Cuentify anota</b><p>Los avisos de Bancolombia, Nequi, Nu y otros quedan listos para agregar con un toque.</p></div>
+ <div><i>💰</i><b>Cuánto debe haber</b><p>Lo que tienes que dejar en cada cuenta para los pagos de la quincena.</p></div>
+ <div><i>📆</i><b>Fechas del año</b><p>SOAT, técnico-mecánica, impuestos y primas, con cuánto apartar para llegar tranquilo.</p></div>
+</section>
+<footer>
+ <span>© 2026 Cuentify · <a href="mailto:cuentify.app@gmail.com">cuentify.app@gmail.com</a></span>
+ <nav><a href="https://www.instagram.com/cuentify.app/">Instagram</a><a href="https://www.tiktok.com/@cuentify.app">TikTok</a><a href="https://www.facebook.com/profile.php?id=61596657320817">Facebook</a><a href="privacidad.html">Privacidad</a><a href="terminos.html">Términos</a></nav>
+</footer>
+</main></body>
+</html>
